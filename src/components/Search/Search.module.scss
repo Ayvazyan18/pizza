@@ -1,0 +1,42 @@
+.search_content {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search_img {
+    width: 15px;
+    height: 15px;
+    opacity: 0.3;
+    position: absolute;
+    left: 10px;
+}
+
+.search_inp {
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 20px;
+    padding-left: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.5s ease-in-out;
+}
+
+.search_inp:focus {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+.close_img {
+    width: 15px;
+    height: 15px;
+    opacity: 0.3;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.close_img:hover {
+    opacity: 1;
+}
